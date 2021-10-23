@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.pyplot as plt
 from secrets import API_key
-
+ 
 class Octopus:
     API_entry_point = "https://api.octopus.energy/v1/"
     def __init__(self):
